@@ -62,7 +62,7 @@ export default function About() {
               <div className="pt-6">
                 <Link
                   href="/join"
-                  className="inline-flex items-center bg-primary hover:bg-primary/90 text-white font-semibold py-4 px-10 rounded-lg text-lg transition-all duration-300 shadow-lg hover:shadow-xl"
+                  className="inline-flex items-center bg-primary hover:bg-primary/90 text-white font-semibold py-1 md:py-4 px-10 rounded-lg text-lg transition-all duration-300 shadow-lg hover:shadow-xl"
                 >
                   Join the Movement Today
                   <span className="ml-3">→</span>

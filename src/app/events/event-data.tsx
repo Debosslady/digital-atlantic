@@ -150,7 +150,7 @@ export default function EventsPage() {
                     href={`/events/${event.slug}`}
                     className="
                       mt-auto bg-secondary hover:bg-secondary/90 
-                      text-white font-semibold py-4 px-8 rounded-lg 
+                      text-white font-semibold md:py-4 py-1 px-8 rounded-lg 
                       text-center transition-all duration-300 shadow-md hover:shadow-lg
                     "
                   >
