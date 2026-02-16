@@ -27,22 +27,28 @@ export default function Navbar() {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-10">
             <Link 
+              href="/" 
+              className="text-white/90 hover:text-white transition-colors font-medium"
+            >
+              Home
+            </Link>
+            <Link 
               href="/about" 
               className="text-white/90 hover:text-white transition-colors font-medium"
             >
               About
+            </Link> 
+            <Link 
+              href="/events" 
+              className="text-white/90 hover:text-white transition-colors font-medium"
+            >
+              Events
             </Link>
             <Link 
               href="/news" 
               className="text-white/90 hover:text-white transition-colors font-medium"
             >
               News
-            </Link>
-            <Link 
-              href="/events" 
-              className="text-white/90 hover:text-white transition-colors font-medium"
-            >
-              Events
             </Link>
             <Link
               href="/join"
@@ -81,11 +87,25 @@ export default function Navbar() {
         <div className="md:hidden bg-primary border-t border-primary/30">
           <div className="container mx-auto px-6 py-6 flex flex-col space-y-6">
             <Link 
+              href="/" 
+              className="text-white/90 hover:text-white" 
+              onClick={() => setIsOpen(false)}
+            >
+              Home
+            </Link>
+            <Link 
               href="/about" 
               className="text-white/90 hover:text-white" 
               onClick={() => setIsOpen(false)}
             >
               About
+            </Link> 
+            <Link 
+              href="/events" 
+              className="text-white/90 hover:text-white" 
+              onClick={() => setIsOpen(false)}
+            >
+              Events
             </Link>
             <Link 
               href="/news" 
@@ -93,13 +113,6 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
             >
               News
-            </Link>
-            <Link 
-              href="/events" 
-              className="text-white/90 hover:text-white" 
-              onClick={() => setIsOpen(false)}
-            >
-              Events
             </Link>
             <Link
               href="/join"
