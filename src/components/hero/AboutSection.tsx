@@ -15,45 +15,28 @@ export const metadata = {
   },
 };
 
-export default function AboutPage() {
+export default function About() {
   return (
     <main className="min-h-screen bg-background">
-      {/* Hero/Header with background image + overlay */}
-      <section className="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
-        {/* Background Image */}
-        <div className="absolute inset-0">
-          <Image
-            src="/assets/images/picsum2.jpg"  
-            alt="Niger Delta landscape or community gathering"
-            fill
-            className="object-cover brightness-[0.65] contrast-[1.05]"
-            priority
-            quality={85}
-            sizes="100vw"
-          />
-          {/* Dark overlay for text readability */}
-          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/70" />
-        </div>
-
-        {/* Content on top */}
-        <div className="relative z-10 container mx-auto px-6 md:px-12 lg:px-20 text-center text-white">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-heading font-extrabold mb-6 drop-shadow-2xl">
+   
+      <section className="relative bg-gradient-to-br from-primary/10 via-secondary/5 to-background overflow-hidden">
+        <div className="container mx-auto py-10 md:py-12 px-6 md:px-12 lg:px-20 text-center">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-primary mb-6">
             Who We Are
           </h1>
-          <p className="text-lg md:text-xl lg:text-2xl max-w-4xl mx-auto font-light drop-shadow-lg leading-relaxed">
+          <p className="text-lg md:text-xl text-foreground/80 max-w-4xl mx-auto">
             The Digital Atlantic Republic is a peaceful movement for the Niger Delta people, advocating 
-            constitutional rights, resource control, and self-determination. Our mission spans Bayelsa, 
-            Rivers, Delta, Akwa Ibom, Edo, and Cross River States.
+            constitutional rights, resource control, and self-determination. Our mission spans Bayelsa, Rivers, Delta, Akwa Ibom, Edo, and Cross River States.
           </p>
         </div>
       </section>
 
       {/* Main Content – Two Column Layout */}
-      <section className="py-16 md:py-24">
+      <section className="py-8 md:py-16">
         <div className="container mx-auto px-6 md:px-12 lg:px-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             {/* Text Column */}
-            <div className="space-y-8 order-2 lg:order-1">
+            <div className="space-y-4 order-2 lg:order-1">
               <h2 className="text-3xl md:text-4xl font-heading font-semibold text-primary">
                 Our Story & Mission
               </h2>

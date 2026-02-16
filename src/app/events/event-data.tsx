@@ -71,7 +71,7 @@ export default function EventsPage() {
       <section className="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/assets/images/events-hero-bg.jpg"
+            src="/assets/images/oilcovered-mangrove.webp"
             alt="Niger Delta advocacy event gathering"
             fill
             className="object-cover brightness-[0.60] contrast-[1.1]"

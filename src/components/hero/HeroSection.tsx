@@ -19,7 +19,7 @@ const slides = [
   {
     title: "Resource Control for Shared Prosperity",
     subtitle: "Empowering Communities, Protecting Our Wealth",
-    bg: "/assets/images/picsum1.jpg",
+    bg: "/assets/images/oilcovered-mangrove.webp",
   },
   {
     title: "Peaceful Self-Determination",
